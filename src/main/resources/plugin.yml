@@ -6,7 +6,7 @@ description: A sign plugin thats have many big citybuild servers
 commands:
   sign:
     usage: Use to sign a item
-    permission: sign.unsign
+    permission: sign.use
   unsign:
     permission: sign.unsign
     usage: Use to unsign a item
