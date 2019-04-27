@@ -18,20 +18,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-/******************************************************************************************
- *    Urheberrechtshinweis                                                                *
- *    Copyright © Emmanuel Lampe 2019                                                  *
- *    Erstellt: 27.04.2019 / 22:55                                               *
- *                                                                                        *
- *    Alle Inhalte dieses Quelltextes sind urheberrechtlich geschützt.                    *
- *    Das Urheberrecht liegt, soweit nicht ausdrücklich anders gekennzeichnet,            *
- *    bei Emmanuel Lampe. Alle Rechte vorbehalten.                                        *
- *                                                                                        * 
- *    Jede Art der Vervielfältigung, Verbreitung, Vermietung, Verleihung,                 *
- *    öffentlichen Zugänglichmachung oder andere Nutzung                                  *
- *    bedarf der ausdrücklichen, schriftlichen Zustimmung von Emmanuel Lampe.             *
- ******************************************************************************************/
-
 public final class SignPlugin extends JavaPlugin {
 
     private SimpleDateFormat dateFormat, timeFormat;
