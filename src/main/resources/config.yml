@@ -1,0 +1,17 @@
+# Configuration for SignPlugin | coded by rexlManu
+Messages:
+  ConsoleSender: "&7Du musst ein Spieler sein."
+  SignSuccess: "&7Du hast erfolgreich das Item signiert."
+  NoItemInHand: "&7Du hälst kein Item in deiner Hand."
+  ItemAlreadySigned: "&7Das Item ist bereits signiert."
+  SignOverride: "&7Das Item ist nun von dir signiert."
+  UnsignSuccess: "&7Die Signierung wurde erfolgreich entfernt."
+  NotSigned: "&7Das Item ist nicht signiert."
+  SignFormat:
+    - "&8\u25cf &7Signiert von &a%NAME%"
+    - "&8\u27a5 &7Am &e%DATUM% &7um &e%UHRZEIT%"
+  DateFormat: "dd/MM/yyyy"
+  TimeFormat: "HH:mm:ss"
+
+Settings:
+  ResignAllowed: true
