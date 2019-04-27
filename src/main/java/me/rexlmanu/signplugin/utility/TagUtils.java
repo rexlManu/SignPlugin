@@ -9,20 +9,6 @@ import org.bukkit.entity.Player;
 import java.lang.reflect.Method;
 import java.util.Objects;
 
-/******************************************************************************************
- *    Urheberrechtshinweis                                                                *
- *    Copyright © Emmanuel Lampe 2019                                                  *
- *    Erstellt: 27.04.2019 / 23:13                                               *
- *                                                                                        *
- *    Alle Inhalte dieses Quelltextes sind urheberrechtlich geschützt.                    *
- *    Das Urheberrecht liegt, soweit nicht ausdrücklich anders gekennzeichnet,            *
- *    bei Emmanuel Lampe. Alle Rechte vorbehalten.                                        *
- *                                                                                        * 
- *    Jede Art der Vervielfältigung, Verbreitung, Vermietung, Verleihung,                 *
- *    öffentlichen Zugänglichmachung oder andere Nutzung                                  *
- *    bedarf der ausdrücklichen, schriftlichen Zustimmung von Emmanuel Lampe.             *
- ******************************************************************************************/
-
 public final class TagUtils {
 
     public static void setBooleanMeta(final Player player, final int slot, final String key, final boolean value) {
