@@ -75,7 +75,7 @@ public final class SignPlugin extends JavaPlugin {
 
     private void signItem(final Player player, final ItemStack itemInHand) {
         final ItemMeta itemMeta = itemInHand.getItemMeta();
-        final List<String> lore = Lists.newArrayList();
+        final List<String> lore = Lists.newArrayList(itemInHand.getItemMeta().getLore());
         final Date date = new Date();
         this.getConfig().getStringList("Messages.SignFormat").forEach(s -> {
             lore.add(s
